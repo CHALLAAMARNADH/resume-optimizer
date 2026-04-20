@@ -1,5 +1,7 @@
-streamlit
-spacy
-pdfminer.six
-scikit-learn
-https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.7.1/en_core_web_md-3.7.1-py3-none-any.whl
+
+streamlit==1.32.0
+spacy==3.5.3
+pdfminer.six==20221105
+scikit-learn==1.4.1.post1
+https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.5.0/en_core_web_md-3.5.0-py3-none-any.whl
+
