@@ -55,7 +55,7 @@ def get_suggestions(resume_text, jd_text, threshold=0.75):
 
             # we want words that are SIMILAR but NOT identical
             # threshold=0.5 means "related enough to be a replacement"
-            if threshold < score < 0.95:
+            if threshold < score < 0.85:
                 if score > best_score:
                     best_score = score
                     best_match = resume_word
